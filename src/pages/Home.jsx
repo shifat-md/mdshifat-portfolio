@@ -6,7 +6,7 @@ import { projects } from '../data/projects';
 import { skillCategories } from '../data/skills';
 import ProjectCard from '../components/ProjectCard';
 import SkillCard from '../components/SkillCard';
-import profileImage from '../assets/profile';
+import profileImage from '../assets/profile.jpg';
 
 const Home = () => {
   const featuredProjects = projects.filter((p) => p.featured).slice(0, 3);

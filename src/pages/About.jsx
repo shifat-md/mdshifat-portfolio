@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaGraduationCap, FaCompass, FaBullseye, FaCode, FaCheck } from 'react-icons/fa';
 import { personalInfo } from '../data/personalInfo';
-import profileImage from '../assets/profile';
+import profileImage from '../assets/profile.jpg';
 
 const About = () => {
   return (
