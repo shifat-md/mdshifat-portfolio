@@ -18,7 +18,7 @@
 import ecomImage from '../assets/ecom.jpg';
 import evenza from '../assets/evenza.jpg';
 
-export const projectCategories = ["All", "React", "JavaScript", "Full Stack / API", "UI/UX"];
+export const projectCategories = ["All", "React", "JavaScript", "Game"];
 
 export const projects = [
   {
@@ -35,7 +35,7 @@ export const projects = [
   {
     id: 2,
     title: "Evenza Website",
-    category: "JavaScript",
+    category: "React",
     description: "A fully responsive e-commerce website built with React and Node.js",
     technologies: ["React.js", "CSS"],
     image: evenza,

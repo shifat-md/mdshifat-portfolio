@@ -52,7 +52,7 @@ const Projects = () => {
                 marginBottom: '40px'
               }}
             >
-              {/* {projectCategories.map((category) => (
+              {projectCategories.map((category) => (
                 <button
                   key={category}
                   onClick={() => handleCategoryChange(category)}
@@ -76,7 +76,7 @@ const Projects = () => {
                 >
                   {category}
                 </button>
-              ))} */}
+              ))}
             </div>
 
             {/* Project Count Indicator */}
