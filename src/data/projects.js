@@ -35,12 +35,34 @@ export const projects = [
   {
     id: 2,
     title: "Evenza Website",
-    category: "React",
+    category: "JavaScript",
     description: "A fully responsive e-commerce website built with React and Node.js",
     technologies: ["React.js", "CSS"],
     image: evenza,
     github: "https://github.com/shifat-md",
     liveDemo: "https://evenza-web.vercel.app/",
+    featured: true
+  },
+  {
+    id: 3,
+    title: "StopWatch",
+    category: "JavaScript",
+    description: "StopWatch",
+    technologies: ["JavaScript", "CSS"],
+    // image: ecomImage,
+    github: "https://github.com/shifat-md",
+    liveDemo: "https://stop-watch-virid-omega.vercel.app/",
+    featured: true
+  },
+  {
+    id: 4,
+    title: "TapTap Game",
+    category: "JavaScript",
+    description: "Inspired game. Inspired from spacewave and geometry dash",
+    technologies: ["JavaScript", "CSS"],
+    // image: evenza,
+    github: "https://github.com/shifat-md",
+    liveDemo: "https://game-made-by-shifat.vercel.app/",
     featured: true
   }
 ];
